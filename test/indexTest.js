@@ -27,9 +27,9 @@ describe("dinner", () => {
   })
   it("creates a new dinner with the correct parameters", () => {
     newdinner = new Dinner('balsamic salad', 'consomme', 'filet mignon', 'cheesecake')
-    expect(newdinner.salad).to.equal('balsamic salad')
-    expect(newdinner.soup).to.equal('consomme')
-    expect(newdinner.entree).to.equal('filet mignon')
+    expect(newdinner._salad).to.equal('balsamic salad')
+    expect(newdinner._soup).to.equal('consomme')
+    expect(newdinner._entree).to.equal('filet mignon')
     expect(newdinner._dessert).to.equal('cheesecake')
   })
 })
