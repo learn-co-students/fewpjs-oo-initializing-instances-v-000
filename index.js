@@ -11,7 +11,7 @@ class Lunch {
         this.salad = salad;
         this.soup = soup;
         this.drink = drink;
-    }
+    };
 };
 
 class Dinner {
@@ -20,5 +20,5 @@ class Dinner {
         this.soup = soup;
         this.entree = entree;
         this._dessert = dessert;
-    }
+    };
 };
